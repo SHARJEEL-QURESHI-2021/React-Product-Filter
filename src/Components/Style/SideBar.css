@@ -1,0 +1,50 @@
+.side-bar h1,
+.side-bar h2 {
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #42f572;
+}
+
+.side-bar input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+.side-bar hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #42f572;
+    width: 95%;
+}
+
+.side-bar input[type="radio"] {
+    margin-right: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #42f572;
+    border-radius: 50%;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.side-bar input[type="radio"]:checked {
+    background-color: #42f572;
+}
+
+.side-bar label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-size: x-large;
+}
